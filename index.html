@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en"><!-- Basic -->
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+   
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+ 
+     <!-- Site Metas -->
+    <title>Sahat & wiedya</title>  
+	<meta name="description" content="Sabtu, 11 Maret 2023" />
+	<meta property="og:image" content="https://metatelid.github.io/sahat-wiedya/img/thumb/icon.png" />
+	<meta property="og:image:width" content="128" />
+	<meta property="og:image:height" content="118" />
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Pogo Slider CSS -->
+    <link rel="stylesheet" href="css/pogo-slider.min.css">
+	<!-- Site CSS -->
+    <link rel="stylesheet" href="css/style.css">    
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body id="home" data-spy="scroll" data-target="#navbar-wd" data-offset="98">
+
+	<!-- LOADER -->
+    <div id="preloader">
+		<div class="preloader pulse">
+			<i class="fa fa-heartbeat" aria-hidden="true"></i>
+		</div>
+    </div><!-- end loader -->
+    <!-- END LOADER -->
+
+    <!-- Start Modal -->
+    <button type="button" class="btn btn-modal btn-primary d-none" data-toggle="modal" data-target="#fullscreenModal">Buka Modal</button>
+
+    <div class="modal fade" id="fullscreenModal" tabindex="-1" role="dialog" aria-labelledby="fullscreenModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="fullscreenModalLabel">Undangan Pernikahan Sahat & Wiedya</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>"Pernikahan adalah pelangi antara dua hari dari berbagai perasaan, cinta, kesedihan, kebahagiaan, kejujuran, kepercayaan, rahasia, rasa hormat, dan bekerja sama untuk mencapai surga."</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal" onclick="playAudio()">Buka Undangan</button>
+          </div>
+        </div>
+      </div>
+    </div>
+	<audio id="music" hidden loop>
+		<source src="images/music.mp3" type="">
+	</audio>
+	
+	<!-- Start header -->
+	<header class="top-header">
+		<nav class="navbar header-nav navbar-expand-lg">
+            <div class="container">
+				<a class="navbar-brand" href="index.html"><img src="images/logo.jpg" alt="image"></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-wd" aria-controls="navbar-wd" aria-expanded="false" aria-label="Toggle navigation">
+					<span></span>
+					<span></span>
+					<span></span>
+				</button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbar-wd">
+                    <ul class="navbar-nav">
+                        <li><a class="nav-link active" href="#home">Home</a></li>
+                        <li><a class="nav-link" href="#about">About Us</a></li>
+                        <li><a class="nav-link" href="#story">Story</a></li>
+                        <li><a class="nav-link" href="#family">Family</a></li>
+                        <li><a class="nav-link" href="#gallery">Gallery</a></li>
+                        <li><a class="nav-link" href="#events">Events</a></li>
+						<li><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+	</header>
+	<!-- End header -->
+	
+	<!-- Start Banner -->
+	<div class="ulockd-home-slider">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="pogoSlider" id="js-main-slider">
+					<div class="pogoSlider-slide" data-transition="zipReveal" data-duration="1500" style="background-image:url(images/slider-01.jpg);">
+						<div class="lbox-caption">
+							<div class="lbox-details">
+								<h1>Sahat & Wiedya</h1>
+								<h2>We're getting married</h3>
+								<p><strong>Sabtu, 11 Maret 2023</strong></p>
+								<a href="#" class="btn ">Save Date</a>
+							</div>
+						</div>
+					</div>
+					<div class="pogoSlider-slide" data-transition="blocksReveal" data-duration="1500" style="background-image:url(images/slider-02.jpg);">
+						<div class="lbox-caption">
+							<div class="lbox-details">
+								<h1>Sahat & Wiedya</h1>
+								<h2>We're getting married</h3>
+								<p><strong>Sabtu, 11 Maret 2023</strong></p>
+								<a href="#" class="btn ">Save Date</a>
+							</div>
+						</div>
+					</div>
+					<div class="pogoSlider-slide" data-transition="shrinkReveal" data-duration="2000" style="background-image:url(images/slider-03.jpg);">
+						<div class="lbox-caption">
+							<div class="lbox-details">
+								<h1>Sahat & Wiedya</h1>
+								<h2>We're getting married</h3>
+								<p><strong>Sabtu, 11 Maret 2023</strong></p>
+								<a href="#" class="btn">Save Date</a>
+							</div>
+						</div>
+						
+					</div>
+				</div><!-- .pogoSlider -->
+			</div>
+		</div>
+	</div>
+	<!-- End Banner -->
+	
+	<!-- Start Countdown -->
+	<div class="countdown-container">
+		<div class="circle">
+			<span id="days"></span>
+		</div>
+		<div class="circle">
+			<span id="hours"></span>
+		</div>
+		<div class="circle">
+			<span id="minutes"></span>
+		</div>
+		<div class="circle">
+			<span id="seconds"></span>
+		</div>
+	</div>
+	<!-- End Countdown -->
+
+	<!-- Start About us -->
+	<div id="about" class="about-box">
+		<div class="about-a1">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="title-box">
+							<h2>Sahat <span>&</span> Wiedya</h2>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12">
+						<div class="row align-items-center about-main-info">
+							<div class="col-lg-8 col-md-6 col-sm-12">
+								<h2> Tentang <span>Sahat</span></h2>
+								<p>Calon pengantin pria ini merupakan putra dari pasangan Bapak (Alm) ME Pandjaitan dan ibu Maria Nainggolan dengan nama lengkap Sahat Maradona Panjaitan. </p>
+							</div>
+							<div class="col-lg-4 col-md-6 col-sm-12">
+								<div class="about-img">
+									<img class="img-fluid rounded" src="images/about-img-01.jpg" alt="" />
+								</div>
+							</div>
+						</div>
+						<div class="row align-items-center about-main-info">
+							<div class="col-lg-4 col-md-6 col-sm-12">
+								<div class="about-img">
+									<img class="img-fluid rounded" src="images/about-img-02.jpg" alt="" />
+								</div>
+							</div>
+							<div class="col-lg-8 col-md-6 col-sm-12">
+								<h2> Tentang <span>Wiedya</span></h2>
+								<p>Calon pengantin wanita ini merupakan putri dari pasangan Bapak Dasril Ilyas dan ibu Harmawati dengan nama lengkap Wiedya Harda. </p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End About us -->
+	
+	<!-- Start Story -->
+	<div id="story" class="story-box main-timeline-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="title-box">
+						<h2>Kisah Kedua Mempelai</h2>
+						<p>Aku mencintaimu bukan karena siapa dirimu, tapi karena siapa aku ketika bersamamu. </p>
+					</div>
+				</div>
+			</div>
+			<div class="row timeline-element separline">
+				<div class="timeline-date-panel col-xs-12 col-md-6  align-left">         
+                    <div class="time-line-date-content">
+                        <p class="mbr-timeline-date mbr-fonts-style display-font">
+                            11 Maret 2023  
+                        </p>
+                    </div>
+				</div>
+				<span class="iconBackground"></span>
+				<div class="col-xs-12 col-md-6 align-right">
+					<div class="timeline-text-content">
+						<h4 class="mbr-timeline-title pb-3 mbr-fonts-style display-font">First date</h4>
+						<p class="mbr-timeline-text mbr-fonts-style display-7">
+						   Tidak banyak yang dapat kami ceritakan, semua berjalan begitu cepat, Berawal dari teman, kemudian iseng menjalin hubungan pacaran..putus sambung menjalin hubungan..dan berakhir serius ke pelaminan.
+						</p>
+					 </div>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	<!-- End Story -->
+	
+	<!-- Start Family -->
+	<div id="family" class="family-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="title-box">
+						<h2>Turut mengundang</h2>
+						<p>Tentu saja tanpa mengurangi rasa hormat, kami keluarga besar turut mengundang</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-4 col-md-6 col-sm-12">
+					<div class="single-team-member">
+						<div class="family-img">
+							<img class="img-fluid" src="images/family-01.jpg" alt="" />
+						</div>
+						<div class="family-info">
+							<h4>H. Syafril Datuk Maruhun</h4>
+							<p>{ Mamak Kepala Suku Guci }</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-12">
+					<div class="single-team-member">
+						<div class="family-img">
+							<img class="img-fluid" src="images/family-02.jpg" alt="" />
+						</div>
+						<div class="family-info">
+							<h4>Hj. Dewi Dasalinda</h4>
+							<p>{ Bundo Kanduang }</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-12">
+					<div class="single-team-member">
+						<div class="family-img">
+							<img class="img-fluid" src="images/family-04.jpg" alt="" />
+						</div>
+						<div class="family-info">
+							<h4>Keluarga Besar dari ME Pandjaitan</h4>
+							<p>{ Marga }</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-12">
+					<div class="single-team-member">
+						<div class="family-img">
+							<img class="img-fluid" src="images/family-06.jpg" alt="" />
+						</div>
+						<div class="family-info">
+							<h4>Perwakilan Punguan Nainggolan</h4>
+							<p>{ Cimahi Bandung }</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Family -->
+	
+	<!-- Start Gallery -->
+	<div id="gallery" class="gallery-box">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="title-box">
+						<h2>Gallery</h2>
+						<p>"Cinta itu bukan berarti mencintai seseorang yang sempurna tapi bagaimana mencintai seseorang yang tidak sempurna dengan cara sempurna."</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<ul class="popup-gallery clearfix">
+					<li>
+						<a href="images/gallery-01.jpg">
+							<img class="img-fluid" src="images/gallery-01.jpg" alt="single image">
+							<span class="overlay"><i class="fa fa-heart-o" aria-hidden="true"></i></span>
+						</a>
+					</li>
+					<li>
+						<a href="images/gallery-02.jpg">
+							<img class="img-fluid" src="images/gallery-02.jpg" alt="single image">
+							<span class="overlay"><i class="fa fa-heart-o" aria-hidden="true"></i></span>
+						</a>
+					</li>
+					<li>
+						<a href="images/gallery-03.jpg">
+							<img class="img-fluid" src="images/gallery-03.jpg" alt="single image">
+							<span class="overlay"><i class="fa fa-heart-o" aria-hidden="true"></i></span>
+						</a>
+					</li>
+					<li>
+						<a href="images/gallery-04.jpg">
+							<img class="img-fluid" src="images/gallery-04.jpg" alt="single image">
+							<span class="overlay"><i class="fa fa-heart-o" aria-hidden="true"></i></span>
+						</a>
+					</li>
+					<li>
+						<a href="images/gallery-05.jpg">
+							<img class="img-fluid" src="images/gallery-05.jpg" alt="single image">
+							<span class="overlay"><i class="fa fa-heart-o" aria-hidden="true"></i></span>
+						</a>
+					</li>
+					<li>
+						<a href="images/gallery-06.jpg">
+							<img class="img-fluid" src="images/gallery-06.jpg" alt="single image">
+							<span class="overlay"><i class="fa fa-heart-o" aria-hidden="true"></i></span>
+						</a>
+					</li>
+					<li>
+						<a href="images/gallery-07.jpg">
+							<img class="img-fluid" src="images/gallery-07.jpg" alt="single image">
+							<span class="overlay"><i class="fa fa-heart-o" aria-hidden="true"></i></span>
+						</a>
+					</li>
+					<li>
+						<a href="images/gallery-08.jpg">
+							<img class="img-fluid" src="images/gallery-08.jpg" alt="single image">
+							<span class="overlay"><i class="fa fa-heart-o" aria-hidden="true"></i></span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- End Gallery -->
+
+	<!-- Start Video -->
+	<div class="row justify-content-center">
+		<div class="col-sm-3 text-center">
+			<p>
+	          Klik untuk mematikan lagu --->
+	          <button type="button" class="btn btn-success play d-none" onclick="playAudio()"><i class="bi bi-volume-mute-fill"></i></button>
+	          <button type="button" class="btn btn-warning pause" onclick="pauseAudio()"><i class="bi bi-volume-up-fill"></i></button>
+	        <p>
+			<iframe width="347" height="618" src="https://www.youtube.com/embed/mI3i23QZQnI" title="Wedding of Sahat &amp; Wiedya" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+		</div>
+	</div>
+	<!-- End Video -->
+	
+	<!-- Start Events -->
+	<div id="events" class="events-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="title-box">
+						<h2>Events</h2>
+						<p>Selamat menjalani hidup baru berdua, semoga kebahagiaan saat ini selalu terjaga selamanya.</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-4 col-md-6 col-sm-12">
+					<div class="event-inner">
+						<div class="event-img">
+							<img class="img-fluid" src="images/event-img-01.jpg" alt="" />
+						</div>
+						<h2>11 Maret 2023 Akad</h2>
+						<p>Jam 08.30 - 09.00, Kunang - Kunang Spa Resort, Ciater, Kec. Ciater, Kabupaten Subang, Jawa Barat 41281</p>
+						<a href="https://goo.gl/maps/hcygtBrHYC3GH7Z69">See location ></a>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-12">
+					<div class="event-inner">
+						<div class="event-img">
+							<img class="img-fluid" src="images/event-img-02.jpg" alt="" />
+						</div>
+						<h2>11 Maret 2023 Resepsi</h2>
+						<p>Jam 11.00 - 14.00, Kunang - Kunang Spa Resort, Ciater, Kec. Ciater, Kabupaten Subang, Jawa Barat 41281</p>
+						<a href="https://goo.gl/maps/hcygtBrHYC3GH7Z69">See location ></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Events -->
+	
+	<!-- Start Contact -->
+	<div id="contact" class="contact-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="title-box">
+						<h2>Give a Greeting</h2>
+						<p>Mari berbagi kebahagiaan dengan kedua mempelai.</p>
+						<p>Amplop Digital</p>
+					</div>
+				</div>
+			</div>
+		    <div class="row justify-content-around text-center">
+		        <div class="col border rounded-3 mb-3">
+		          <div class="container" style="background-color: #fff;">
+		            <p>No. Rekening :</p>
+		            <div class="input-group mb-3">
+		              <button class="btn btn-outline-dark" type="button" id="button-addon1" onclick="copy_bca1()">Copy</button>
+		              <input type="text" class="form-control" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1" value="0080456263" id="bca1" readonly />
+		            </div>
+		            <p>BCA : Sahat Maradona Panjaitan</p>
+		          </div>
+		        </div>
+		        <div class="col border rounded-3 mb-3">
+		          <div class="container" style="background-color: #fff;">
+		            <p>No. Rekening :</p>
+		            <div class="input-group mb-3">
+		              <button class="btn btn-outline-dark" type="button" id="button-addon1" onclick="copy_bca2()">Copy</button>
+		              <input type="text" class="form-control" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1" value="0844338186" id="bca2" readonly />
+		            </div>
+		            <p>BCA : Wiedya Harda</p>
+		          </div>
+		        </div>
+		    </div>
+			<div class="row">
+				<div class="col">
+					<div class="commentbox"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Contact -->
+	
+	<!-- Start Footer -->
+	<footer class="footer-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<p class="footer-company-name">All Rights Reserved. &copy; 2018 <a href="#">The Real Wedding</a> Design By : <a href="https://html.design/">html design</a></p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- End Footer -->
+
+	<!-- ALL JS FILES -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
+    <!-- ALL PLUGINS -->
+	<script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.pogo-slider.min.js"></script> 
+	<script src="js/slider-index.js"></script>
+	<script src="js/smoothscroll.js"></script>
+	<script src="js/form-validator.min.js"></script>
+    <script src="js/contact-form-script.js"></script>
+    <script src="js/custom.js"></script>
+
+	<script src="https://unpkg.com/commentbox.io/dist/commentBox.min.js"></script>
+	<script>commentBox('5710049607417856-proj')</script>
+
+</body>
+</html>
